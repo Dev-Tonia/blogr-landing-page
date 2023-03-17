@@ -1,0 +1,105 @@
+/* *font families to be used */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap");
+
+/* *Rest */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* *Reusable style */
+body {
+  font-family: "Overpass", sans-serif;
+  line-height: 1.7;
+}
+.btn {
+  color: hsl(0, 0%, 100%);
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 700;
+}
+.btn-light {
+  background: hsl(0, 0%, 100%);
+  color: hsl(356, 100%, 66%);
+  padding: 10px 25px;
+  border-radius: 20px;
+}
+.btn-outline {
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-weight: 700;
+  border: 1px solid hsl(0, 0%, 100%);
+}
+/* *Navbar */
+ul {
+  list-style-type: none;
+}
+ul li {
+  padding-left: 20px;
+}
+.header {
+  background: linear-gradient(
+      to bottom right,
+      hsla(13, 100%, 72%, 0.9),
+      hsla(353, 100%, 62%, 0.95)
+    ),
+    url("../images/bg-pattern-intro-desktop.svg") no-repeat top -850px right -700px /
+      2100px;
+  height: 80vh;
+  color: hsl(0, 0%, 100%);
+  border-bottom-left-radius: 80px;
+  padding-top: 20px;
+}
+.header input {
+  font-size: 12px;
+}
+.container {
+  width: 90%;
+}
+.navbar-container {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar,
+.navbar ul {
+  display: flex;
+  font-size: 12px;
+}
+.navbar {
+  flex-grow: 5;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+.navbar .btn-light {
+  margin-left: 20px;
+  border: 1px solid hsl(240, 2%, 79%);
+}
+
+.header-content {
+  justify-content: center;
+  display: flex;
+  height: 80%;
+  flex-direction: column;
+  align-items: center;
+}
+.header-content h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.header-content .navbar-auth {
+  margin-top: 40px;
+}
+.header-content .navbar-auth .btn-light {
+  padding: 10px;
+  margin-right: 15px;
+}
