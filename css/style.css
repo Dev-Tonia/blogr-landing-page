@@ -93,13 +93,11 @@ ul {
 }
 .container {
   width: 80%;
+  margin: 0 auto;
 }
 .navbar-container {
   font-family: "Ubuntu", sans-serif;
-  display: flex;
   height: 70px;
-  justify-content: center;
-  align-items: center;
 }
 .navbar-holder {
   display: flex;
@@ -177,31 +175,24 @@ ul {
   position: relative;
 }
 
-.infrastructure-img-wrapper {
-  position: absolute;
-  left: 80px;
-  top: -55px;
-}
 .infrastructure-img-wrapper img {
   max-width: 80%;
   height: auto;
+  margin-top: -45px;
+  margin-bottom: -130px;
 }
 
 .infrastructure-content {
-  padding: 45px 100px 60px 0;
+  padding: 35px 0 50px 0;
 
-  width: 45%;
+  width: 50%;
 }
 .infrastructure-content h3 {
   font-size: 30px;
   color: hsl(0, 0%, 100%);
   /* margin-bottom: 20px; */
 }
-.infra-flex-container {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
+
 /* *Service */
 .services {
   margin-top: 60px;
@@ -227,13 +218,14 @@ footer {
   padding: 40px 100px 40px 0;
   display: flex;
   align-items: flex-start;
-  justify-content: space-around;
-  font-size: 14px;
+  justify-content: space-between;
+  font-size: 12px;
 }
 
-.main-footer p {
+.main-footer h5 {
   margin-bottom: 15px;
   color: hsl(0, 0%, 100%);
+  font-size: 13px;
 }
 .main-footer li a {
   color: hsl(240, 2%, 79%);
