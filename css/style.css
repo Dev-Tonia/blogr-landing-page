@@ -99,6 +99,7 @@ ul {
   font-family: "Ubuntu", sans-serif;
   height: 70px;
 }
+
 .navbar-holder {
   display: flex;
   align-items: center;
@@ -126,12 +127,13 @@ ul {
   border: none;
 }
 
-.header-content {
+.header .header-content {
   justify-content: center;
   display: flex;
-  height: 80%;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  height: 80%;
 }
 .header-content h1 {
   font-size: 50px;
@@ -240,41 +242,19 @@ footer {
   text-align: center;
 }
 /* Media Query */
-@media (max-width: 900px) and (min-width: 766px) {
-  .about .position-img {
-    min-width: 50%;
-    min-height: 60%;
-    /* object-fit: cover; */
-    object-position: top 0 right -150px;
-  }
+@media (min-width: 770px) and (max-width: 900px) {
   .position-img {
-    min-width: 80%;
+    min-width: 70%;
     min-height: 70%;
     /* object-fit: cover; */
     object-position: top 0 right -150px;
   }
   .header-content h1 {
     line-height: 1.4;
-    font-size: 40px;
-    padding-top: 30px;
-  }
-  .container {
-    max-width: 95%;
   }
 }
 
-@media (max-width: 765px) {
-  .header-content h1 {
-    line-height: 1;
-    font-size: 30px;
-    padding-top: 20px;
-  }
-  .header h4 {
-    font-size: 14px;
-    text-align: center;
-    margin-top: 10px;
-    line-height: 1.3;
-  }
+@media (max-width: 769px) {
   .flex-container {
     flex-direction: column;
   }
@@ -319,6 +299,20 @@ footer {
 }
 
 @media (max-width: 641px) {
+  body {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .header-content h1 {
+    line-height: 1.2;
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  .header h4 {
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.3;
+  }
   .main-footer {
     flex-direction: column;
     align-items: center;
