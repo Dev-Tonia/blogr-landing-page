@@ -39,7 +39,7 @@ There is also a `style-guide.md` file containing the information you'll need, su
 
 The live link to my own version of the challenge
 
-- [GitHub Pages](https://c-tonia.github.io/blogr-landing-page/)
+- [GitHub Pages](https://c-tonia.github.io/blogr-landing-page/) https://c-tonia.github.io/blogr-landing-page/
 
 
 
