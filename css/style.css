@@ -244,9 +244,8 @@ footer {
 /* Media Query */
 @media (max-width: 981px) {
   .position-img {
-    min-width: 70%;
-    min-height: 70%;
-    /* object-fit: cover; */
+    max-height: 70%;
+    object-fit: contain;
     object-position: top 0 right -150px;
   }
   .header-content h1 {
