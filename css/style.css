@@ -242,7 +242,7 @@ footer {
   text-align: center;
 }
 /* Media Query */
-@media (max-width: 1005px) {
+@media (max-width: 981px) {
   .position-img {
     min-width: 70%;
     min-height: 70%;
